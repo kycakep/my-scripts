@@ -1,5 +1,7 @@
 #!/bin/bash
 
+miner stop;
+
 # 1. Остановка и отключение службы gpu_monitor
 sudo systemctl stop gpu_monitor.service
 sudo systemctl disable gpu_monitor.service
